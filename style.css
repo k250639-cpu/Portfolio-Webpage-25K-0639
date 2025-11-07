@@ -1,0 +1,139 @@
+/* === General Theme === */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #00ff88;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #0a0a0a;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 2px solid #00ff88;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ff88;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+section {
+  padding: 40px 60px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* === About === */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-container img {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #00ff88;
+}
+
+/* === Skills === */
+.skill {
+  margin: 15px 0;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #00ff88, #009955);
+  border-radius: 10px;
+  transition: width 2s ease-in-out;
+}
+
+/* === Projects === */
+.project {
+  background: #0a0a0a;
+  padding: 20px;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  margin: 20px 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project:hover {
+  background: #001f11;
+  transform: scale(1.02);
+}
+
+.description {
+  display: none;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* === Contact Form === */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #00ff88;
+  border-radius: 5px;
+  background: #0a0a0a;
+  color: #00ff88;
+}
+
+button {
+  background: #00ff88;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00cc66;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #00ff88;
+  background: #0a0a0a;
+}
