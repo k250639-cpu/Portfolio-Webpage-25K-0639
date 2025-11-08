@@ -1,4 +1,3 @@
-/* === General Theme === */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #000;
@@ -43,7 +42,6 @@ section {
   text-align: center;
 }
 
-/* === About === */
 .about-container {
   display: flex;
   align-items: center;
@@ -56,7 +54,6 @@ section {
   border: 3px solid #00ff88;
 }
 
-/* === Skills === */
 .skill {
   margin: 15px 0;
 }
@@ -77,7 +74,6 @@ section {
   transition: width 2s ease-in-out;
 }
 
-/* === Projects === */
 .project {
   background: #0a0a0a;
   padding: 20px;
@@ -99,7 +95,6 @@ section {
   color: #ccc;
 }
 
-/* === Contact Form === */
 form {
   display: flex;
   flex-direction: column;
